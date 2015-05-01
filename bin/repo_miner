@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "repo_miner"
+require "repo_miner/cli"
+require "byebug"
+
+RepoMiner::CLI.start(ARGV)
